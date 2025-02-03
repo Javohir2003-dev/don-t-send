@@ -1,0 +1,19 @@
+{% extends "base.html"%}
+
+{% block title %}
+
+    Bosh sahifa
+
+{% endblock title %}
+
+
+{% block content %}
+    <div class="container mt-3">
+        <ul>
+            {% for group in groups %}
+            <h5>{{group.name}}</h5>
+            {% endfor %}
+        </ul>
+    </div>
+
+{% endblock content %}
