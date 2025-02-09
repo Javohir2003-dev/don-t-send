@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set "VIRTUAL_ENV=D:\javohir_sayt1\davomat_1\sayt_muhit"
+=======
+set "VIRTUAL_ENV=D:\Saytlar\fitnes\sayt_muhit"
+>>>>>>> 0984425 (1-commit)
 
 if not defined PROMPT set PROMPT=$P$G
 

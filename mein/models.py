@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 from django.db import models     # type: ignore
+=======
+from django.db import models
+>>>>>>> 0984425 (1-commit)
 
 
 
 
+<<<<<<< HEAD
 class Group(models.Model):
     name = models.CharField(max_length=50)
 
@@ -36,4 +41,14 @@ class Belgi(models.Model):
 
     class Meta:
         unique_together = ['davomat', 'student']
+=======
+class ContactMessage(models.Model):
+    name = models.CharField(max_length=255)
+    email = models.EmailField()
+    phone = models.CharField(max_length=20)
+    message = models.TextField()
+    create_at = models.DateTimeField(auto_now_add=True)
+
+
+>>>>>>> 0984425 (1-commit)
 

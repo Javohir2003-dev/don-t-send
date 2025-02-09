@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.contrib import admin # type: ignore
 from .models import Student,Group,Belgi,Davomat
 
@@ -16,3 +17,8 @@ class GroupAdmin(admin.ModelAdmin):
     inlines = [StudentInline]
 
     
+=======
+from django.contrib import admin
+
+# Register your models here.
+>>>>>>> 0984425 (1-commit)
